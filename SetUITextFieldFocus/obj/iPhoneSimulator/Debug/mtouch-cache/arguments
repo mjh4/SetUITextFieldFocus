@@ -1,0 +1,27 @@
+# Version: 7.2.4.4 (5485ac2)
+# [first argument, ignore] # /Users/Administrator/Projects/SetUITextFieldFocus/SetUITextFieldFocus/bin/iPhoneSimulator/Debug/mtouch.exe
+/Developer/MonoTouch/usr/bin/mtouch \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/Administrator/Projects/SetUITextFieldFocus/SetUITextFieldFocus/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--nomanifest \
+	--nosign \
+	-sim \
+	/Users/Administrator/Projects/SetUITextFieldFocus/SetUITextFieldFocus/bin/iPhoneSimulator/Debug/SetUITextFieldFocus.app \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/monotouch.dll \
+	-debug \
+	-nolink \
+	-sdk \
+	7.0 \
+	-targetver \
+	7.0 \
+	--abi=i386 \
+	/Users/Administrator/Projects/SetUITextFieldFocus/SetUITextFieldFocus/bin/iPhoneSimulator/Debug/SetUITextFieldFocus.exe \
