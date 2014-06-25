@@ -12,4 +12,4 @@ You can manually change the focus of a view to bring up the keyboard for entry i
 Additional Information
 ----------------------
 
-You can call <code>BecomeFirstResponder ()</code> on a <code>UITextField</code> at any point, or after any event, to switch focus - not just inside <code>ViewDidLoad ()</code>.
+You can call <code>BecomeFirstResponder ()</code> on a <code>UITextField</code> at any point to switch focus - not just inside <code>ViewDidLoad ()</code>.
